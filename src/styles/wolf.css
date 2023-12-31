@@ -1,0 +1,128 @@
+.wolf .markdown a {
+  @apply text-red-500 dark:text-red-400;
+}
+
+.wolf .markdown h1,
+.wolf .markdown h2,
+.wolf .markdown h3,
+.wolf .markdown h4 {
+  @apply font-bold relative c-text-800;
+}
+
+.wolf .markdown h1,
+.wolf .markdown h2,
+.wolf .markdown h3,
+.wolf .markdown h4 {
+  @apply mt-7;
+}
+
+.wolf .markdown h1::before,
+.wolf .markdown h2::before,
+.wolf .markdown h3::before,
+.wolf .markdown h4::before {
+  @apply absolute text-sm c-text-400 -left-7 bottom-1;
+}
+
+.wolf .markdown h1 {
+  @apply text-3xl;
+}
+
+.wolf .markdown h1::before {
+  content: "H1";
+}
+
+.wolf .markdown h2 {
+  @apply text-2xl;
+}
+
+.wolf .markdown h2::before {
+  content: "H2";
+}
+
+.wolf .markdown h3 {
+  @apply text-xl;
+}
+
+.wolf .markdown h3::before {
+  content: "H3";
+}
+
+.wolf .markdown h3 {
+  @apply text-xl;
+}
+
+.wolf .markdown h4 {
+  @apply text-lg;
+}
+
+.wolf .markdown h4::before {
+  content: "H4";
+}
+
+.wolf .markdown p {
+  @apply mt-6;
+}
+
+.wolf .markdown h2 + p,
+.wolf .markdown h3 + p,
+.wolf .markdown h4 + p {
+  @apply mt-4;
+}
+
+.wolf .markdown ul,
+.wolf .markdown ol {
+  @apply mt-2 pl-5;
+}
+
+.wolf .markdown ul {
+  @apply list-disc;
+}
+
+.wolf .markdown ul > li::marker {
+  @apply text-red-500 dark:text-red-400;
+}
+
+.wolf .markdown ol {
+  @apply list-decimal;
+}
+
+.wolf .markdown li p {
+  @apply m-0 mb-2;
+}
+
+.wolf .markdown code {
+  @apply text-sm border c-border-300 rounded py-0.5 px-1 c-bg-50;
+}
+
+.wolf .markdown pre {
+  @apply mt-2 text-sm;
+}
+
+.wolf .markdown pre code {
+  @apply text-sm bg-transparent border-none p-0;
+}
+
+.wolf .markdown pre div {
+  @apply border c-border-300 rounded;
+}
+
+.wolf .markdown .token {
+	background: transparent !important;
+}
+
+.wolf .markdown img {
+  @apply inline-block;
+}
+
+.wolf .markdown table {
+  @apply mt-4 block w-full overflow-auto;
+}
+
+.wolf .markdown table td,
+.wolf .markdown table th {
+  @apply px-3 py-2 border c-border-300;
+}
+
+.wolf .markdown table tr {
+  @apply border-t border-gray-300 bg-transparent;
+}
