@@ -41,6 +41,14 @@ const wolf: WolfData[] = [
         icon: "i-heroicons-solid:pencil-alt",
         excerpt: "Markdown syntax",
         link: "https://www.markdownguide.org/basic-syntax/"
+      },
+      {
+        id: "nft",
+        title: "NFT Generator Go",
+        file: "markdown/commerce.md",
+        icon: "i-mdi:art",
+        excerpt: "Go Gen NFTs",
+        link: "https://github.com/rosw1123/terminal-nft-generator"
       }
     ]
   }
