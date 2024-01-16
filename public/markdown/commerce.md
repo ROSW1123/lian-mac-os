@@ -14,7 +14,7 @@
 3. replace all images according to different layers' category into different sub-folders in the "layers" folder
 4. set all images as png
 5. rename all png with first letter of each word as capital and between each word until . with an underscore like Gentle_Eyes.png so that the program will read this file name into Gentle Eyes for metadata trait inputing
-6. execute the program according to https://github.com/ROSW1123/terminal-nft-generator's Readme.md
+6. execute the program according to the repository's Readme.md
 
 ## Sample 
 
