@@ -35,6 +35,14 @@ const wolf: WolfData[] = [
     icon: "i-octicon:globe",
     md: [
       {
+        id: "nft",
+        title: "NFT Generator Go",
+        file: "markdown/commerce.md",
+        icon: "i-mdi:art",
+        excerpt: "Go Gen NFTs",
+        link: "https://github.com/rosw1123/terminal-nft-generator"
+      },
+      {
         id: "test",
         title: "Test",
         file: "https://bafkreibkt45fik4btex54n427few2r5tiggzrzswnf4nnrgrihfkrnekdu.ipfs.nftstorage.link/",
@@ -42,14 +50,6 @@ const wolf: WolfData[] = [
         excerpt: "Markdown syntax",
         link: "https://www.markdownguide.org/basic-syntax/"
       },
-      {
-        id: "nft",
-        title: "NFT Generator Go",
-        file: "markdown/commerce.md",
-        icon: "i-mdi:art",
-        excerpt: "Go Gen NFTs",
-        link: "https://github.com/rosw1123/terminal-nft-generator"
-      }
     ]
   }
 ];
