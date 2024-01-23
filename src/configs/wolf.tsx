@@ -37,10 +37,18 @@ const wolf: WolfData[] = [
       {
         id: "nft",
         title: "NFT Generator Go",
-        file: "markdown/commerce.md",
+        file: "markdown/nft.md",
         icon: "i-mdi:art",
         excerpt: "Go Gen NFTs",
         link: "https://github.com/rosw1123/terminal-nft-generator"
+      },
+      {
+        id: "nftgallery",
+        title: "NFT Gallery React",
+        file: "markdown/nft-gallery.md",
+        icon: "i-solar:gallery-wide-bold",
+        excerpt: "React Gallery",
+        link: "https://github.com/rosw1123/nft-website"
       },
       {
         id: "test",
